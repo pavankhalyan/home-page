@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url("./starter-code/assets/home/background-home-desktop.jpg") center/cover no-repeat;
+}
+
+.navbar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    padding: 40px;
+    color: white;
+    font-family: monospace;
+}
+
+a:hover{
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+.left{
+     height: 0%;
+     width: 50%;
+     border: 1px solid white;
+     margin-left: 50px;
+}
+
+.right{
+    height: 90px;
+    margin-right: 90px;
+    display: flex;
+}
+
+
+.content{
+    height: 90%;
+    display: flex;
+}
+
+
+.left1{
+    height: 75%;
+    width: 55%;
+    margin-top: 50px;
+}
+
+h3{
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: white;
+    padding-right: 150px;
+}
+
+h1{
+    padding-top: 0%;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-left: 60px;
+}
+
+p{
+    width: 70%;
+    margin-left: 170px;
+    margin-top: 30px;
+    color: white;
+    font-family: cursive;
+}
+
+.right1{
+    height: 75%;
+    width: 55%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 60%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+h4{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+    font-size: 30px;
+}
